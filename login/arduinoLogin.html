@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="arduinoLogin.css" />
+    <title>Arduino Login Page</title>
+  </head>
+  <body>
+    <div class="loginContainer">
+      <form class="formContainer">
+        <header><h1>login</h1></header>
+        <div class="container">
+          <div class="inputField">
+            <label for="userName"><b>Username</b></label>
+            <input
+              type="text"
+              placeholder="Username"
+              name="uname"
+              class="inputText"
+              required
+            />
+          </div>
+          <div class="inputField">
+            <label for="password"><b>Password</b></label>
+            <input
+              type="password"
+              placeholder="Password"
+              name="psw"
+              class="inputText"
+              required
+            />
+          </div>
+
+          <button type="submit">Login</button>
+          <div class="loginFooter">
+            <label>
+              <input type="checkbox" name="remember" />
+              Remember me
+            </label>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
