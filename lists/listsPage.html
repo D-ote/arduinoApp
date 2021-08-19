@@ -9,78 +9,87 @@
   </head>
   <body>
     <div class="listsContainer">
-      <header>
-        <h3 onclick="displaySMSList()">sms</h3>
-        <h3 onclick="displayErrorList()">error</h3>
-      </header>
-      <div class="smsDiv">
-        <div class="text" onclick="displaySMSDetails()">
-          <h5>MTN</h5>
-          <p>
-            Need help quickly? Chat with us on myMTN App. Click bit.ly.myMTNapp
-            to get started.
-          </p>
-        </div>
-        <div class="text" onclick="displaySMSDetails()">
-          <h5>MTN</h5>
-          <p>
-            Need help quickly? Chat with us on myMTN App. Click bit.ly.myMTNapp
-            to get started.
-          </p>
-        </div>
-        <div class="text" onclick="displaySMSDetails()">
-          <h5>MTN</h5>
-          <p>
-            Need help quickly? Chat with us on myMTN App. Click bit.ly.myMTNapp
-            to get started.
-          </p>
-        </div>
-        <div class="text" onclick="displaySMSDetails()">
-          <h5>MTN</h5>
-          <p>
-            Need help quickly? Chat with us on myMTN App. Click bit.ly.myMTNapp
-            to get started.
-          </p>
-        </div>
+      <div class="sideNav">
+        <ul class="sideNavList">
+          <li class="navItem1" onclick="displaySMSList()">sms</li>
+          <li class="navItem2" onclick="displayErrorList()">error</li>
+        </ul>
       </div>
-      <div class="errorDiv">
-        <div class="text" onclick="displaySMSDetails()">
-          <h5>ERROR</h5>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
-            deleniti corrupti animi assumenda aperiam dolore ducimus nemo atque
-            quisquam ratione.
-          </p>
-        </div>
-        <div class="text" onclick="displaySMSDetails()">
-          <h5>ERROR</h5>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
-            deleniti corrupti animi assumenda aperiam dolore ducimus nemo atque
-            quisquam ratione.
-          </p>
-        </div>
-        <div class="text" onclick="displaySMSDetails()">
-          <h5>ERROR</h5>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
-            deleniti corrupti animi assumenda aperiam dolore ducimus nemo atque
-            quisquam ratione.
-          </p>
-        </div>
-      </div>
-      <div class="smsModal">
-        <div class="textModal">
-          <div class="modalHeader">
-            <h2>MTN</h2>
-            <div class="close" onclick="closeModal()">x</div>
+      <div class="body">
+        <nav>
+          <button class="logOutBtn">log out</button>
+        </nav>
+        <div class="smsDiv">
+            <div class="pageHeader">SMS</div>
+          <div class="text" onclick="displaySMSDetails()">
+            <h5>MTN</h5>
+            <p>
+              Need help quickly? Chat with us on myMTN App. Click
+              bit.ly.myMTNapp to get started.
+            </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            rerum dolorem accusantium et officiis adipisci quod sapiente ratione
-            similique reiciendis temporibus vitae blanditiis perspiciatis,
-            beatae in tempore nisi facere! Voluptates.
-          </p>
+          <div class="text" onclick="displaySMSDetails()">
+            <h5>MTN</h5>
+            <p>
+              Need help quickly? Chat with us on myMTN App. Click
+              bit.ly.myMTNapp to get started.
+            </p>
+          </div>
+          <div class="text" onclick="displaySMSDetails()">
+            <h5>MTN</h5>
+            <p>
+              Need help quickly? Chat with us on myMTN App. Click
+              bit.ly.myMTNapp to get started.
+            </p>
+          </div>
+          <div class="text" onclick="displaySMSDetails()">
+            <h5>MTN</h5>
+            <p>
+              Need help quickly? Chat with us on myMTN App. Click
+              bit.ly.myMTNapp to get started.
+            </p>
+          </div>
+        </div>
+        <div class="errorDiv">
+            <div class="pageHeader">ERROR</div>
+          <div class="text" onclick="displaySMSDetails()">
+            <h5>ERROR</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+              deleniti corrupti animi assumenda aperiam dolore ducimus nemo
+              atque quisquam ratione.
+            </p>
+          </div>
+          <div class="text" onclick="displaySMSDetails()">
+            <h5>ERROR</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+              deleniti corrupti animi assumenda aperiam dolore ducimus nemo
+              atque quisquam ratione.
+            </p>
+          </div>
+          <div class="text" onclick="displaySMSDetails()">
+            <h5>ERROR</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+              deleniti corrupti animi assumenda aperiam dolore ducimus nemo
+              atque quisquam ratione.
+            </p>
+          </div>
+        </div>
+        <div class="smsModal">
+          <div class="textModal">
+            <div class="modalHeader">
+              <h2>MTN</h2>
+              <div class="close" onclick="closeModal()">x</div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              rerum dolorem accusantium et officiis adipisci quod sapiente
+              ratione similique reiciendis temporibus vitae blanditiis
+              perspiciatis, beatae in tempore nisi facere! Voluptates.
+            </p>
+          </div>
         </div>
       </div>
     </div>
