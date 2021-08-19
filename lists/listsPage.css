@@ -10,6 +10,7 @@
 .listsContainer {
     display: flex;
     height: 100vh;
+    overflow-y: hidden;
 }
 
 .sideNav {
@@ -35,6 +36,7 @@
 
 .body {
     flex: 1;
+    overflow-y: scroll;
 }
 
 nav {
