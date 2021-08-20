@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="listsPage.css" />
     <title>Lists Page</title>
   </head>
-  <body>
+  <body onload="fetchAllSms()">
     <div class="listsContainer">
       <div class="sideNav">
         <ul class="sideNavList">
@@ -21,34 +21,8 @@
         </nav>
         <div class="smsDiv">
             <div class="pageHeader">SMS</div>
-          <div class="text" onclick="displaySMSDetails()">
-            <h5>MTN</h5>
-            <p>
-              Need help quickly? Chat with us on myMTN App. Click
-              bit.ly.myMTNapp to get started.
-            </p>
-          </div>
-          <div class="text" onclick="displaySMSDetails()">
-            <h5>MTN</h5>
-            <p>
-              Need help quickly? Chat with us on myMTN App. Click
-              bit.ly.myMTNapp to get started.
-            </p>
-          </div>
-          <div class="text" onclick="displaySMSDetails()">
-            <h5>MTN</h5>
-            <p>
-              Need help quickly? Chat with us on myMTN App. Click
-              bit.ly.myMTNapp to get started.
-            </p>
-          </div>
-          <div class="text" onclick="displaySMSDetails()">
-            <h5>MTN</h5>
-            <p>
-              Need help quickly? Chat with us on myMTN App. Click
-              bit.ly.myMTNapp to get started.
-            </p>
-          </div>
+            <div id="smsDetails"></div>
+            <div id="paginationNumbers" class="pageNumber"></div>
         </div>
         <div class="errorDiv">
             <div class="pageHeader">ERROR</div>

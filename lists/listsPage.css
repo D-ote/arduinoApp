@@ -123,3 +123,22 @@ h3 {
     width: 400px;
     margin: 250px auto;
 }
+
+.pageNumber {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+a {
+    font-size: 14px;
+    padding: 3px 10px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.highlightedNumber {
+    color: white;
+    background-color: rgb(46, 48, 126);
+}
