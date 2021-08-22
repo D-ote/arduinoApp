@@ -41,10 +41,15 @@
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     box-shadow: 0 10px 25px rgba(46, 48, 125, .2);
+}
+
+.dropdownIcon {
+    color: white;
+    cursor: pointer;
 }
 
 button {
@@ -62,6 +67,27 @@ button {
     background-color: white;
 }
 
+.dropdownList:hover {
+    background-color: rgba(46, 48, 125, .2);
+}
+
+.hideNavbar {
+    box-shadow: 0 10px 25px rgba(46, 48, 125, .2);
+    display: none;
+}
+
+.showNavbar {
+    display: block;
+}
+
+.showNavbar ul {
+    list-style: none;
+}
+
+.showNavbar ul li {
+    padding: 10px 20px;
+}
+
 .pageHeader {
     font-weight: bold;
     text-align: center;
@@ -74,7 +100,7 @@ h3 {
 
 .smsDiv {
     max-width: 600px;
-    margin: 20px auto;
+    margin: 30px auto;
     display: block;
 }
 
@@ -141,4 +167,14 @@ a {
 .highlightedNumber {
     color: white;
     background-color: rgb(46, 48, 126);
+}
+
+@media screen and ( max-width : 992px ) {
+    .sideNav {
+        display: none;
+    }
+
+    .dropdownIcon {
+        color: black;
+    }
 }

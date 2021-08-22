@@ -17,15 +17,22 @@
       </div>
       <div class="body">
         <nav>
+          <div class="dropdownIcon" id="dropdownIcon" onclick="showDropdown()" >v</div>
           <button class="logOutBtn">log out</button>
         </nav>
+        <div id="hideNavbar" class="hideNavbar">
+          <ul class="sideNavList">
+            <li class="navItem1 dropdownList" onclick="displaySMSList()">sms</li>
+            <li class="navItem2 dropdownList" onclick="displayErrorList()">error</li>
+          </ul>
+        </div>
         <div class="smsDiv">
-            <div class="pageHeader">SMS</div>
-            <div id="smsDetails"></div>
-            <div id="paginationNumbers" class="pageNumber"></div>
+          <div class="pageHeader">SMS</div>
+          <div id="smsDetails"></div>
+          <div id="paginationNumbers" class="pageNumber"></div>
         </div>
         <div class="errorDiv">
-            <div class="pageHeader">ERROR</div>
+          <div class="pageHeader">ERROR</div>
           <div class="text" onclick="displaySMSDetails()">
             <h5>ERROR</h5>
             <p>
